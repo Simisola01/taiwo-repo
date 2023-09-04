@@ -1,0 +1,63 @@
+
+body{background: url(interior.jpg);
+
+}
+
+
+.second{width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.second h1{font-size: 50px;
+    margin-top: 80px;
+}
+
+.second p{margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+
+.banner{color: aliceblue;
+padding-left: 50px;}
+    
+.navbar{color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+button{width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+button:hover{
+    background: #009688;
+}
